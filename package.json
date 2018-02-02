@@ -1,0 +1,28 @@
+{
+  "name": "ultima-launch",
+  "version": "0.0.1",
+  "description": "Library to assist in the LTI tool launch process",
+  "main": "./dist/index.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "eLIPSE",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "8.5.9",
+    "typescript": "2.6.2"
+  },
+  "dependencies": {
+    "oauth-signature": "1.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UQ-eLIPSE/ultima-launch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UQ-eLIPSE/ultima-launch/issues"
+  },
+  "homepage": "https://github.com/UQ-eLIPSE/ultima-launch#readme"
+}
